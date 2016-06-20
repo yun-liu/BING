@@ -1,5 +1,5 @@
-# BING++
-[BING++: A Fast High Quality Object Proposal Generator at 100fps](http://arxiv.org/abs/1511.04511)
+# BING
+[BING: Binarized Normed Gradients for Objectness Estimation at 300fps](http://mmcheng.net/bing/)
 
 This repository provides C++ code and matlab wrappers for both windows and linux.
 
@@ -46,7 +46,7 @@ This package provides code for Linux and Windows.
 
 **1. Installation on Linux**
 
-Tested on Ubuntu 15.04 with CUDA 7.5 and OpenCV 3.0.
+Tested on Ubuntu 15.04 with OpenCV 3.0.
 
 To build:
 ```
@@ -58,25 +58,19 @@ make
 
 To run:
 ```
-./Objectness/BING++ /path/to/data/ (e.g. /datasets/VOC2007/)
+./BING/BING /path/to/data/ (e.g. /datasets/VOC2007/)
 ```
-
-**Notes:**
-
-Included vlfeat for 64bit linux in ext folder. If you are using another arch, please add appropriate libvl or edit CMakelists.txt in Objectness.
 
 **2. Installation on Windows**
 
-Tested on Windows 10 with Visual Studio 2013, CUDA 7.5 and Opencv 3.0.
+Tested on Windows 10 with Visual Studio 2013, Opencv 3.0.
 
 **Notes:**
 
- - Firstly, install vlfeat package. The vlfeat of 64bit Windows is provided in ext folder(vl.lib and vl.dll). The header files and lib should be put in some place where Visual Studio can find it, and the path of vl.dll should be added to the environment variable of 'Path'.
- - If your CUDA version is not 7.5, you may need to build a new CUDA project and include the code into your project.
- - You can change the path of dataset in line 25, kernel.cu.
+ - You can change the path of dataset in line 24, Main.cpp.
  - Please run the code under Release, x64 mode.
  
 **3. Installation for matlab wrappers**
 
-First, configure environment as described above. Then, build.m contains some commands to build the mex function; mexBINGpp is the wrapper of BING++ algorithm; and runDataset.m use mexBINGpp to run the dataset.
+First, configure environment as described above. Then, build.m contains some commands to build the mex function; mexBING is the wrapper of BING algorithm; and runDataset.m use mexBINGpp to run the dataset.
 
