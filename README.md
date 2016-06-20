@@ -72,5 +72,5 @@ Tested on Windows 10 with Visual Studio 2013, Opencv 3.0.
  
 **3. Installation for matlab wrappers**
 
-First, configure environment as described above. Then, build.m contains some commands to build the mex function; mexBING is the wrapper of BING algorithm; and runDataset.m use mexBINGpp to run the dataset.
+First, configure environment as described above. Then, build.m contains some commands to build the mex function; mexBING is the wrapper of BING algorithm; and runDataset.m use mexBING to run the dataset.
 
