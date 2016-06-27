@@ -8,7 +8,7 @@
 #include "ValStructVec.h"
 
 
-// Uncomment line line 17 in BINGpp.cpp to remove counting times of image reading.
+// Uncomment line line 17 in BING.cpp to remove counting times of image reading.
 
 void RunObjectness(CStr &resName, double base, int W, int NSS, int numPerSz);
 
