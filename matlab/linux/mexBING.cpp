@@ -219,30 +219,6 @@ void predictBBoxSII(ValStructVec<float, Vec4i> &valBoxes, const vecI &sz)
 	valBoxes.sort();
 }
 
-int minIdx(Mat &input, int x1, int y1, int x2, int y2) {
-	int min = 1000000;
-	for (int i = y1; i <= y2; i++) {
-		int *data = input.ptr<int>(i);
-		for (int j = x1; j <= x2; j++) {
-			if (data[j] < min)
-				min = data[j];
-		}
-	}
-	return min;
-}
-
-int maxIdx(Mat &input, int x1, int y1, int x2, int y2) {
-	int max = -1;
-	for (int i = y1; i <= y2; i++) {
-		int *data = input.ptr<int>(i);
-		for (int j = x1; j <= x2; j++) {
-			if (data[j] > max)
-				max = data[j];
-		}
-	}
-	return max;
-}
-
 double interUnio(const Vec4i &bb, const Vec4i &bbgt)
 {
 	int bi[4];
