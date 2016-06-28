@@ -8,4 +8,4 @@
 %       I = imread('000001.jpg');
 %       boxes{i} = mexBINGpp(I,'D:/VOC2007/Results/ObjNessB2W8MAXBGR');
 %
-function boxes = mexBINGpp(I,path);
+function boxes = mexBING(I,path);
