@@ -74,3 +74,16 @@ Tested on Windows 10 with Visual Studio 2013, Opencv 3.0.
 
 First, configure environment as described above. Then, build.m contains some commands to build the mex function; mexBING is the wrapper of BING algorithm; and runDataset.m use mexBING to run the dataset.
 
+
+### Citations
+
+If you are using the code provided here in a publication, please consider citing our paper:
+
+    @article{chengbing,
+      title={BING: Binarized normed gradients for objectness estimation at 300 fps},
+      author={Cheng, Ming-Ming and Liu, Yun and Lin, Wen-Yan and Zhang, Ziming and Rosin, Paul L and Torr, Philip HS},
+      journal={Computational Visual Media},
+      pages={1--18},
+      publisher={Springer}
+     }
+
