@@ -80,10 +80,16 @@ First, check the environments as described above. Then, build.m contains some co
 If you are using the code provided here in a publication, please consider citing our paper:
 
     @article{chengbing,
-      title={BING: Binarized normed gradients for objectness estimation at 300 fps},
+      title={BING: Binarized normed gradients for objectness estimation at 300fps},
       author={Cheng, Ming-Ming and Liu, Yun and Lin, Wen-Yan and Zhang, Ziming and Rosin, Paul L and Torr, Philip HS},
       journal={Computational Visual Media},
-      pages={1--18},
-      publisher={Springer}
+      volume={5},
+      number={1},
+      pages={3--20},
+      year={2019},
+      month={Mar},
+      publisher={Springer},
+      doi={10.1007/s41095-018-0120-1},
+      url={https://doi.org/10.1007/s41095-018-0120-1}
      }
 
