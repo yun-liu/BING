@@ -79,7 +79,7 @@ First, check the environments as described above. Then, build.m contains some co
 
 If you are using the code provided here in a publication, please consider citing our paper:
 
-    @article{chengbing,
+    @article{cheng2019bing,
       title={BING: Binarized normed gradients for objectness estimation at 300fps},
       author={Cheng, Ming-Ming and Liu, Yun and Lin, Wen-Yan and Zhang, Ziming and Rosin, Paul L and Torr, Philip HS},
       journal={Computational Visual Media},
