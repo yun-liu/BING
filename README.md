@@ -1,5 +1,4 @@
-# BING
-[BING: Binarized Normed Gradients for Objectness Estimation at 300fps](http://mmcheng.net/bing/)
+# [BING: Binarized Normed Gradients for Objectness Estimation at 300fps](http://mmcheng.net/bing/)
 
 This repository provides C++ code and matlab wrappers for both windows and linux.
 
