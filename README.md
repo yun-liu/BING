@@ -4,7 +4,7 @@ This repository provides C++ code and matlab wrappers for both windows and linux
 
 ### Citations
 
-If you are using the code provided here in a publication, please consider citing our paper:
+If you are using the code provided here in a publication, please consider citing:
 
     @article{cheng2019bing,
       title={{BING}: Binarized Normed Gradients for Objectness Estimation at 300fps},
