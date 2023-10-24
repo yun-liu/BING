@@ -2,7 +2,7 @@
 
 This repository provides C++ code and matlab wrappers for both windows and linux.
 
-### Citations
+### Citation
 
 If you are using the code provided here in a publication, please consider citing:
 
